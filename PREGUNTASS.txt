@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+
+
+  
+  <meta charset="UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mi primera p�gina con estilo</title>
+  
+
+  
+  
+  <link rel="stylesheet" href="miestilo.css">
+
+  
+  <style>
+        body {
+            color: white;
+            background-color: black;
+            background-image: url(../../Downloads/WhatsApp%20Image%202024-08-18%20at%206.23.50%20PM.jpeg);
+        }
+        .navbar {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 200px;
+        }
+        .navbar li {
+            margin: 10px 0;
+        }
+        .navbar a {
+            color: #000099;
+            text-decoration: none;
+            display: block;
+            padding: 5px;
+        }
+        .navbar a:hover {
+            color: #33ff33;
+        }
+        .header img {
+            width: 87px;
+            height: 87px;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .content h1 {
+            font-family: Jokerman;
+            font-size: 2em;
+        }
+        .content select, .content textarea {
+            display: block;
+            margin: 10px auto;
+        }
+        .content textarea {
+            width: 70%;
+            height: 100px;
+        }
+        .social-buttons img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+        }
+        .footer {
+            text-align: center;
+            margin: 20px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+    </style></head><body>
+<!-- Menú de navegación -->
+<ul class="navbar">
+
+  <li style="font-family: Georgia;"><a href="index.html">Página
+principal</a></li>
+  <li style="font-family: Georgia;"><a href="contactos.html">Contacto</a></li>
+  <li style="font-family: Georgia;"><a href="noticias.html">Noticias</a></li>
+  <li style="font-family: Georgia;"><a href="preguntas.html">Preguntas</a></li>
+  <li style="font-family: Georgia;"><a href="productos.html">Productos</a></li>
+  <li style="font-family: Georgia;"><a href="quienessomos.html">Quiénes
+somos</a></li>
+  <li style="font-family: Georgia;"><a href="servicios.html">Servicios</a></li>
+  <li><a href="ubicacion.html"><span style="font-family: Georgia;">Ubica</span>ción</a></li>
+</ul>
+
+<div style="text-align: right;" class="header">
+<h1><big>EL LIBRERO DEL GATO NEGRO</big></h1>
+
+      
+<h1>Preguntas...<img src="../GALILEO/Nueva%20carpeta/WhatsApp%20Image%202024-08-17%20at%209.02.59%20PM.jpeg" alt="LOGO" class="header-image"></h1>
+<div style="text-align: right;"><span style="font-family: jokerman,SunSans-Regular,sans-serif;"><span style="font-weight: bold;"></span></span><br>
+</div>
+</div>
+
+<div class="content">
+<h2>Bienvenido, dime tu pregunta</h2>
+<p>Preguntas frecuentes:</p>
+<select name="Preguntas Frecuentes">
+<option>Enviar ofertas</option>
+<option>�C�mo puedo hacer un pedido?</option>
+<option>�Tienen tienda f�sica?</option>
+<option>�Me pueden indicar el precio de env�o?</option>
+</select>
+<p>Dejanos tu comentario:</p>
+<textarea name="Comentarios" placeholder="Escribe tu comentario aqu�..."></textarea>
+<button type="submit" name="Enviar">ENVIAR</button> </div>
+
+<div class="content">
+<p>Visitanos en nuestras paginas y encuentra promociones exclusivas</p>
+<div style="text-align: center;" class="social-buttons"> <a href="https://www.instagram.com/elgatonegrodely/" target="_blank"> <img src="../GALILEO/Nueva%20carpeta/0cc55f8c-7e0a-4742-bbf9-14b5f13b31b9.jpg" alt="Instagram"></a><a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank">
+                </a><a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/Captura%20de%20pantalla%202024-08-20%20004109.png" alt="Website" style="width: 41px; height: 43px;">
+            </a><a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank"><img src="../GALILEO/Nueva%20carpeta/png-clipart-youtube-computer-icons-youtube-logo-black.png" alt="YouTube" style="width: 43px; height: 43px;"></a>
+<br>
+ellibrerodelgatonegro.com
+<br>
+Guatemala � 2024 El Librero del Gato Negro. Todos los derechos
+reservados.</div>
+</div>
+
+<div class="footer">
+</div>
+
+</body></html>

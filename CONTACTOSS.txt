@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+
+
+  
+  <meta charset="UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mi primera p�gina con estilo</title>
+  
+
+  
+  
+  <link rel="stylesheet" href="miestilo.css">
+
+  
+  <style>
+        body {
+            color: white;
+            background-color: rgb(8, 8, 8);
+            background-image: url('../../Downloads/WhatsApp%20Image%202024-08-18%20at%206.23.50%20PM.jpeg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            position: absolute;
+            top: 48px;
+            left: 16px;
+            width: 174px;
+            height: auto;
+            padding: 0;
+            list-style-type: none;
+        }
+        .navbar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 5px 0;
+            padding: 5px;
+        }
+        .navbar a:hover {
+            background-color: rgba(0, 0, 153, 0.5);
+        }
+        h1 {
+            text-align: right;
+            margin: 20px;
+            color: white;
+        }
+        h1 img {
+            width: 76px;
+            height: 60px;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+        .contact-info {
+            margin: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .contact-info span {
+            display: block;
+        }
+        textarea {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #000099;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3333cc;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(8, 8, 8);
+            color: white;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer img {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+        }
+    </style></head><body>
+<!-- Menú de navegación -->
+<ul class="navbar">
+
+<li style="font-family: Georgia;"><a href="index.html">Página
+principal</a></li>
+<li style="font-family: Georgia;"><a href="contactos.html">Contacto</a></li>
+<li style="font-family: Georgia;"><a href="noticias.html">Noticias</a></li>
+<li style="font-family: Georgia;"><a href="preguntas.html">Preguntas</a></li>
+<li style="font-family: Georgia;"><a href="productos.html">Productos</a></li>
+<li style="font-family: Georgia;"><a href="quienessomos.html">Quiénes
+somos</a></li>
+<li style="font-family: Georgia;"><a href="servicios.html">Servicios</a></li>
+<li><a href="ubicacion.html"><span style="font-family: Georgia;">Ubica</span>ción</a></li>
+</ul>
+
+<br>
+
+
+<h1><span>EL LIBRERO DEL GATO NEGRO</span> <img src="../GALILEO/Nueva%20carpeta/WhatsApp%20Image%202024-08-17%20at%209.02.59%20PM.jpeg" alt="logo"> </h1>
+
+
+<div style="text-align: center;">
+<div style="text-align: left;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Direcci�n:</strong> 10 av. 20-90
+zona 21, Ciudad de Guatemala
+  <br>
+</div>
+<br>
+<div style="text-align: center;">
+<div style="text-align: left;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Tel�fono:</strong> 524-21456775<br>
+</div>
+<div style="text-align: left;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<strong>Correo:</strong> <span style="color: rgb(0, 0, 153);">ellibrerodelgatonegro.com<br>
+<br>
+</span></div>
+</div>
+</div>
+<div class="contact-info">
+<div> </div>
+
+<div style="text-align: center;"> </div>
+<ol>
+</ol>
+
+<div style="text-align: center;"> </div>
+
+<div style="text-align: center;"> </div>
+<p style="text-align: center;"><strong>Suscr�bete:</strong></p>
+<div style="text-align: center;">
+<div style="text-align: center;"><textarea cols="50" rows="1" name="SUSCRIBBETE"></textarea> <button type="button" name="Enviar">ENVIAR</button></div>
+
+</div>
+</div>
+<div style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp;&nbsp; <br>
+<br>
+<br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;&nbsp; Vis�tanos en nuestras p�ginas y encuentra promociones
+exclusiva<br>
+</div>
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp; <br>
+<a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank"></a>
+<div class="footer">
+            <a href="https://www.instagram.com/elgatonegrodely/" target="_blank">
+                <br>
+</a><div style="text-align: justify;" class="footer">
+<div style="text-align: center;">
+            <a href="https://www.instagram.com/elgatonegrodely/" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/0cc55f8c-7e0a-4742-bbf9-14b5f13b31b9.jpg" alt="Instagram" style="width: 40px; height: 40px;">
+            </a>
+            <a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/png-clipart-youtube-computer-icons-youtube-logo-black.png" alt="YouTube" style="width: 43px; height: 43px;">
+            </a>
+            <a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/Captura%20de%20pantalla%202024-08-20%20004109.png" alt="Website" style="width: 43px; height: 46px;">
+            </a>
+            </div>
+<p style="text-align: center;">ellibrerodelgatonegro.com</p>
+<div style="text-align: center;">
+            </div>
+<p style="text-align: center;">Guatemala � 2024 El Librero del Gato Negro. Todos los derechos reservados</p>
+        </div>
+
+
+        </div>
+<p style="text-align: left;"><br>
+</p>
+
+
+<p style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; <br>
+</p>
+
+</body></html>

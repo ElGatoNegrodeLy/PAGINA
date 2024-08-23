@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+
+
+  
+  <meta charset="UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mi primera página con estilo</title>
+  
+
+  
+  
+  <link rel="stylesheet" href="miestilo.css">
+
+  
+  <style>
+        body {
+            color: white;
+            background-color: rgb(0, 10, 16);
+            background-image: url('../../Downloads/WhatsApp%20Image%202024-08-18%20at%206.23.50%20PM.jpeg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            width: 200px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            margin: 5px 0;
+        }
+        .navbar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .navbar a:hover {
+            background-color: #6600cc;
+        }
+        .header {
+            text-align: right;
+            margin: 20px;
+        }
+        .header img {
+            width: 100px;
+            height: auto;
+            vertical-align: middle;
+        }
+        .content {
+            text-align: center;
+            margin: 20px;
+        }
+        .content h1 {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .content h2 {
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a img {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+        }
+        footer p {
+            margin: 10px 0;
+        }
+    </style></head><body style="color: white; background-color: rgb(51, 255, 51);" alink="#000099" link="#000099" vlink="#990099">
+<!-- Menú de navegación -->
+<ul class="navbar">
+
+  <li style="font-family: Georgia;"><a href="index.html">Página
+principal</a></li>
+  <li style="font-family: Georgia;"><a href="contactos.html">Contacto</a></li>
+  <li style="font-family: Georgia;"><a href="noticias.html">Noticias</a></li>
+  <li style="font-family: Georgia;"><a href="preguntas.html">Preguntas</a></li>
+  <li style="font-family: Georgia;"><a href="productos.html">Productos</a></li>
+  <li style="font-family: Georgia;"><a href="quienessomos.html">Quiénes
+somos</a></li>
+  <li style="font-family: Georgia;"><a href="servicios.html">Servicios</a></li>
+  <li><a href="ubicacion.html"><span style="font-family: Georgia;">Ubica</span>ción</a></li>
+</ul>
+
+<!-- Cabecera -->
+<div class="header">
+<div style="text-align: center;"> </div>
+<h1 style="text-align: center;"><big>EL LIBRERO DEL<img style="width: 160px; height: 160px;" src="../GALILEO/Nueva%20carpeta/WhatsApp%20Image%202024-08-17%20at%209.02.59%20PM.jpeg" alt="Logo del Librero del Gato Negro"> GATO NEGRO&nbsp;</big></h1>
+</div>
+
+<div class="content">
+<p style="text-align: left;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big style="font-family: Georgia;"><big> Tenemos una gran variedad de libros</big></big></strong></p>
+<table style="text-align: left; margin-left: auto; margin-right: auto; width: 1031px; height: 932px;">
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><img style="width: 195px; height: 295px;" src="../GALILEO/Nueva%20carpeta/harry.jpg" alt="Portada de Harry Potter"></td>
+      <td style="text-align: center;"><img style="width: 179px; height: 289px;" src="../GALILEO/Nueva%20carpeta/images%20%282%29.jpg" alt="Portada de libro 2"></td>
+      <td style="vertical-align: top; text-align: center;"><br>
+      </td>
+      <td style="text-align: center;"><img style="width: 219px; height: 301px;" src="../GALILEO/Nueva%20carpeta/ward2.jpg" alt="Portada de Ward 2"></td>
+      <td style="vertical-align: top; text-align: center;"><br>
+      </td>
+      <td style="text-align: center;"><img style="width: 188px; height: 281px;" src="../GALILEO/Nueva%20carpeta/libro-harry-potter-y-la-camara-secreta-ed-minalima.jpg" alt="Portada de Harry Potter y la Cámara Secreta"></td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><img src="../GALILEO/Nueva%20carpeta/nalini%20sin2.jpg" alt="Portada de Nalini Sin 2"></td>
+      <td style="text-align: center;"><img style="width: 215px; height: 363px;" src="../GALILEO/Nueva%20carpeta/ward%201.jpg" alt="Portada de Ward 1"></td>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="text-align: center;"><img style="width: 229px; height: 350px;" src="../GALILEO/Nueva%20carpeta/harry-potter-y-el-prisionero-de-azkaban-edicion-minalima-harry-potter.jpg" alt="Portada de Harry Potter y el Prisionero de Azkaban"></td>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="text-align: center;"><img style="width: 206px; height: 362px;" src="../GALILEO/Nueva%20carpeta/nalii%201.jpg" alt="Portada de Nalii 1"></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<!-- Footer --> <footer> </footer>
+<p style="text-align: center;"><a href="https://www.instagram.com/elgatonegrodely/" target="_blank">
+                </a><a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank"></a><a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank"></a><a href="https://www.instagram.com/elgatonegrodely/" target="_blank"></a><a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank"></a><a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank"></a><a href="https://www.instagram.com/elgatonegrodely/" target="_blank"></a><a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank"></a><a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank"></a><a href="https://www.instagram.com/elgatonegrodely/" target="_blank"></a><a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank">
+               </a><a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank"></a>Visítanos en nuestras páginas y
+encuentra promociones exclusivas</p><br>
+<div style="text-align: center;"><a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank"> </a><a href="https://www.instagram.com/elgatonegrodely/" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/0cc55f8c-7e0a-4742-bbf9-14b5f13b31b9.jpg" alt="Instagram" style="width: 40px; height: 40px;">
+            </a>
+            <a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/png-clipart-youtube-computer-icons-youtube-logo-black.png" alt="YouTube" style="width: 43px; height: 43px;">
+            </a>
+            <a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/Captura%20de%20pantalla%202024-08-20%20004109.png" alt="Website" style="width: 43px; height: 46px;">
+            </a><a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank">
+            </a><a href="https://www.instagram.com/elgatonegrodely/" target="_blank"> </a><a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank"> </a> </div>
+
+<p style="text-align: center;">ellibrerodelgatonegro.com</p>
+
+<div style="text-align: center;"> </div>
+
+<p style="text-align: center;">Guatemala © 2024 El Librero del Gato
+Negro. Todos los derechos reservados.</p>
+
+</body></html>

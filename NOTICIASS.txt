@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>El Librero del Gato Negro</title>
+    
+    <link rel="stylesheet" href="miestilo.css">
+    <style>
+        body {
+            color: white;
+            background-color: rgb(2, 2, 2);
+            background-image: url(../../Downloads/WhatsApp%20Image%202024-08-18%20at%206.23.50%20PM.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            background: rgba(0, 0, 0, 0.5);
+            height: 100%;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        }
+        .navbar a {
+            display: block;
+            padding: 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        .header {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+        .section-title {
+            font-family: 'Jokerman', cursive;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .section-content {
+            margin-bottom: 20px;
+        }
+        .section-content img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .promo-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .promo-table img {
+            width: 100%;
+            height: auto;
+        }
+        .promo-table td {
+            padding: 10px;
+            text-align: center;
+        }
+        .social-buttons img {
+            width: 40px;
+            height: 40px;
+            margin: 0 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        footer p {
+            margin: 0;
+        }
+        .subscribe {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style></head><body>
+    <ul style="left: 16px; width: 188px;" class="navbar">
+        <li><a href="index.html">Pagina principal</a></li>
+        <li><a href="contactos.html">Contacto</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="preguntas.html">Preguntas</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="quienessomos.html">Quienes somos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="ubicacion.html">Ubicacion</a></li>
+    </ul>
+
+    <div class="content">
+        <div class="header">
+            <h1>EL LIBRERO DEL GATO NEGRO</h1>
+            <big style="font-family: Jokerman;"><big><big>Noticias...<img style="width: 71px; height: 71px;" src="../GALILEO/Nueva%20carpeta/WhatsApp%20Image%202024-08-17%20at%209.02.59%20PM.jpeg" alt="Logo"></big></big></big>
+        </div>
+
+        <div class="section-content">
+            <div class="section-title">Lo mejor del Gato Negro<br>
+</div>
+            <table class="promo-table" border="1">
+                <tbody><tr>
+                    <td><a href="https://sites.google.com/view/elgatonegrodely/p%C3%A1gina-principal?authuser=0"><img src="../GALILEO/Nueva%20carpeta/Captura%20de%20pantalla%202024-08-20%20010358.png" alt="Promo 1"></a></td>
+                    <td><img style="width: 322px; height: 212px;" src="../GALILEO/Nueva%20carpeta/Captura%20de%20pantalla%202024-08-20%20005852.png" alt="Promo 2"></td>
+                </tr>
+            </tbody></table>
+            <p><strong>La Best Seller J.R. WARD</strong></p>
+        </div>
+
+        <table style="width: 827px; height: 454px;" class="promo-table">
+            <tbody><tr>
+                <td><img style="width: 191px; height: 293px;" src="../GALILEO/Nueva%20carpeta/ward%201.jpg" alt="Darius"></td>
+                <td><img src="../GALILEO/Nueva%20carpeta/ward2.jpg" alt="El Lobo"></td>
+                <td><img style="width: 198px; height: 286px;" src="../GALILEO/Nueva%20carpeta/ward3.jpg" alt="The Beloved"></td>
+            </tr>
+            <tr>
+                <td><strong>DARIUS</strong></td>
+                <td><strong>EL LOBO</strong></td>
+                <td><strong>THE BELOVED</strong></td>
+            </tr>
+        </tbody></table>
+
+        <div class="section-content">
+            <p><strong><br>
+</strong></p>
+<p><strong>Nalini Singh nos trae una muestra de lo que podr�a ser el final... o no?</strong></p>
+<p><strong></strong></p>
+<table style="text-align: left; width: 811px; height: 313px; margin-left: auto; margin-right: auto; background-color: rgb(11, 15, 11);" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(14, 22, 14);"><img style="width: 182px; height: 276px;" alt="" src="../GALILEO/Nueva%20carpeta/nalini%20sin2.jpg"><br>
+      </td>
+      <td style="vertical-align: top; text-align: center;"><img style="width: 175px; height: 287px;" alt="" src="../GALILEO/Nueva%20carpeta/nalii%201.jpg"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p><strong><br>
+</strong></p>
+<div style="text-align: center;">Visitanos en nuestras paginas y encuentra promociones exclusivas
+</div>
+<p><strong></strong></p>
+
+            <table style="width: 799px; height: 93px;" class="promo-table">
+                <tbody><tr>
+                    
+                    <td>
+      <div class="footer">
+      <div style="text-align: center;">
+      <div style="text-align: center; margin-left: 280px;">
+            <a href="https://www.instagram.com/elgatonegrodely/" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/0cc55f8c-7e0a-4742-bbf9-14b5f13b31b9.jpg" alt="Instagram" style="width: 40px; height: 40px;">
+            </a>
+            <a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/png-clipart-youtube-computer-icons-youtube-logo-black.png" alt="YouTube" style="width: 43px; height: 43px;">
+            </a>
+            <a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank">
+                <img src="../GALILEO/Nueva%20carpeta/Captura%20de%20pantalla%202024-08-20%20004109.png" alt="Website" style="width: 43px; height: 46px;">
+            </a></div>
+
+            </div>
+<p style="text-align: center; margin-left: 280px;">ellibrerodelgatonegro.com</p>
+      <div style="text-align: center;">
+            </div>
+<p style="text-align: center; margin-left: 200px;">Guatemala � 2024 El Librero del Gato Negro. Todos los derechos reservados</p>
+        </div>
+<img style="width: 50px; height: 1px;" src="../GALILEO/Nueva%20carpeta/nalii%201.jpg" alt="Lineage"></td>
+                </tr>
+                </tbody></table></div></div></body></html>

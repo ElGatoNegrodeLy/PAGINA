@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+
+
+  
+  <meta charset="UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mi primera p�gina con estilo</title>
+  
+
+  
+  
+  <link rel="stylesheet" href="miestilo.css">
+
+  
+  <style>
+        body {
+            background-image: url('../../Downloads/WhatsApp%20Image%202024-08-18%20at%206.23.50%20PM.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            width: 200px;
+        }
+        .navbar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+        }
+        .navbar a:hover {
+            background-color: #6600cc;
+        }
+        .header {
+            text-align: right;
+            margin: 20px;
+        }
+        .header img {
+            width: 65px;
+            height: 65px;
+            vertical-align: middle;
+        }
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        table img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        footer a img {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+            margin: 0 10px;
+        }
+    </style></head><body>
+<!-- Men� de navegaci�n del sitio -->
+<ul style="left: 16px; width: 190px;" class="navbar">
+
+  <li><a href="index.html">Pagina principal</a></li>
+  <li><a href="contactos.html">Contacto</a></li>
+  <li><a href="noticias.html">Noticias</a></li>
+  <li><a href="preguntas.html">Preguntas</a></li>
+  <li><a href="productos.html">Productos</a></li>
+  <li><a href="quienessomos.html">Quienes somos</a></li>
+  <li><a href="servicios.html">Servicios</a></li>
+  <li><a href="ubicacion.html">Ubicacion</a></li>
+</ul>
+
+<!-- Encabezado -->
+<div class="header"> <big><big><span style="font-family: Jokerman;" class="section-title">EL LIBRERO DE <span style="color: white;">EL GATO NEGRO</span></span><span style="font-family: Jokerman;"> </span></big></big><img src="../GALILEO/Nueva%20carpeta/WhatsApp%20Image%202024-08-17%20at%209.02.59%20PM.jpeg" alt="Logo del Librero del Gato Negro"> </div>
+
+<!-- Cat�logo -->
+<p class="section-title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp;
+Nuestro Catalogo...</p>
+<table style="text-align: left; width: 100px;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img style="width: 224px; height: 318px;" src="../GALILEO/Nueva%20carpeta/ward%201.jpg" alt="Portada de libro Infantil 2"></td>
+      <td style="vertical-align: top;"><img style="width: 206px; height: 319px;" src="../GALILEO/Nueva%20carpeta/nalii%201.jpg" alt="Portada de libro Infantil 1"></td>
+    </tr>
+  </tbody>
+</table>
+<p class="section-title"><br>
+</p>
+
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big><big> Infantil</big></big></strong></p>
+
+<table>
+
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><br>
+</td>
+      <td style="text-align: center;"><br>
+</td>
+      <td style="text-align: center;"><img style="width: 173px; height: 279px;" src="../GALILEO/Nueva%20carpeta/descarga%20%284%29.jpg" alt="Portada de libro Infantil 3"></td>
+      <td style="text-align: center;"><img style="width: 215px; height: 325px;" src="../GALILEO/Nueva%20carpeta/descarga%20%286%29.jpg" alt="Portada de libro Infantil 4"></td>
+      <td style="text-align: center;"><img style="width: 218px; height: 331px;" src="../GALILEO/Nueva%20carpeta/images%20%287%29.jpg" alt="Portada de libro Infantil 5"></td>
+      <td style="text-align: center;"><img style="width: 218px; height: 337px;" src="../GALILEO/Nueva%20carpeta/infantil%201.jpg" alt="Portada de cl�sico 4"></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><big><big><strong>Clasicos</strong></big></big></p>
+
+<table style="width: 1071px; height: 389px;">
+
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><img style="width: 230px; height: 353px;" src="../GALILEO/Nueva%20carpeta/descarga%20%284%29.jpg" alt="Portada de cl�sico 1"></td>
+      <td style="text-align: center;"><img style="width: 238px; height: 355px;" src="../GALILEO/Nueva%20carpeta/descarga%20%285%29.jpg" alt="Portada de cl�sico 2"></td>
+      <td style="text-align: center;"><img src="../GALILEO/Nueva%20carpeta/e.jpg" alt="Portada de cl�sico 3"></td>
+      <td style="text-align: center;"><img style="width: 228px; height: 326px;" src="../GALILEO/Nueva%20carpeta/images%20%284%29.jpg" alt="Portada de libro Infantil 6"></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><big><big><strong>Fantasia</strong></big></big></p>
+
+<table style="width: 1071px; height: 371px;">
+
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><img style="width: 216px; height: 351px;" src="../GALILEO/Nueva%20carpeta/harry.jpg" alt="Portada de fantas�a 1"></td>
+      <td style="text-align: center;"><img style="width: 212px; height: 343px;" src="../GALILEO/Nueva%20carpeta/nalini%20sin2.jpg" alt="Portada de fantas�a 2"></td>
+      <td style="text-align: center;"><img style="width: 240px; height: 357px;" src="../GALILEO/Nueva%20carpeta/images%20%282%29.jpg" alt="Portada de fantas�a 3"></td>
+      <td style="text-align: center;"><img style="width: 216px; height: 344px;" src="../GALILEO/Nueva%20carpeta/images%20%284%29.jpg" alt="Portada de fantas�a 4"></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Footer --> <footer> </footer>
+<p style="text-align: center;">Visitanos en nuestras paginas y
+encuentra promociones exclusivas</p>
+
+<div style="text-align: center;"> <a href="https://www.instagram.com/elgatonegrodely/" target="_blank"> <img style="width: 51px; height: 51px;" src="../GALILEO/Nueva%20carpeta/0cc55f8c-7e0a-4742-bbf9-14b5f13b31b9.jpg" alt="Instagram"> </a> <a href="https://www.youtube.com/channel/UCvSBAavzzo2u-p51c89NCUw" target="_blank"> <img style="width: 56px; height: 56px;" src="../GALILEO/Nueva%20carpeta/png-clipart-youtube-computer-icons-youtube-logo-black.png" alt="YouTube"> </a> <a href="https://sites.google.com/d/1zcR-UR7PLL-YT4upChUT3bocrfnU95k-/p/1jlNGrBJ7alFU2p4Q-_SkZpwwgHTL_-gO/edit" target="_blank"> <img style="width: 46px; height: 50px;" src="../GALILEO/Nueva%20carpeta/Captura%20de%20pantalla%202024-08-20%20004109.png" alt="Sitio Web"> </a> </div>
+
+<p style="text-align: center;">ellibrerodelgatonegro.com</p>
+
+<div style="text-align: center;"> </div>
+
+<p style="text-align: center;">Guatemala � 2024 El Librero del Gato
+Negro. Todos los derechos reservados.</p>
+
+</body></html>
